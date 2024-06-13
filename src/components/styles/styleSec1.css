@@ -1,0 +1,18 @@
+/* #pImg{
+    font-size: 100px;
+} */
+
+#cards{
+    display: flex;
+    justify-content: space-around;
+}
+
+#cards #card {
+    max-width: 25%;
+
+}
+#cards #card img{
+   width: 20%;
+  
+
+}

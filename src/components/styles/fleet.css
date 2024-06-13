@@ -1,0 +1,15 @@
+.car-button {
+    /* display: block; */
+    width: 15%;
+    padding: 10px 20px;
+    margin: 5px 0;
+    background: white;
+    border: 0;
+    cursor: pointer;
+    text-align: center;
+    font-size: 16px;
+   
+  }
+  .car-button:hover{
+    background-color: red;
+  }

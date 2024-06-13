@@ -1,0 +1,82 @@
+/* Book.css */
+#booking {
+    max-width: 800px;
+    margin: 10px auto;
+    padding: 20px;
+    background-color: #fff;
+  }
+  
+  #booking h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  #booking form {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+  }
+  
+  #booking label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  #booking select, #booking input[type="date"] {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-sizing: border-box;
+    color: #666;
+  }
+  
+  #booking select::placeholder, #booking input[type="date"]::placeholder {
+    color: #999;
+  }
+  
+  #booking select:focus, #booking input[type="date"]:focus {
+    border-color: #aaa;
+    outline: none;
+  }
+  
+  #booking button {
+    grid-column: span 2;
+    padding: 15px;
+    background-color: #ff5733;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    text-transform: uppercase;
+  }
+  
+  #booking button:hover {
+    background-color: #e04e2f;
+  }
+  
+  .icon {
+    margin-right: 8px;
+    vertical-align: middle;
+  }
+  
+  .required {
+    color: red;
+    margin-left: 5px;
+  }
+  
+  @media (max-width: 600px) {
+    #booking form {
+      grid-template-columns: 1fr;
+    }
+  
+    #booking button {
+      grid-column: span 1;
+    }
+  }
+  
